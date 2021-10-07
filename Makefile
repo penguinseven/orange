@@ -1,13 +1,13 @@
 PROJECT="example"
 
 default:
-    echo ${PROJECT}
+	echo ${PROJECT}
 
 install:
-    echo ${PROJECT}
+	echo ${PROJECT}
     
 test: install
-    echo ${PROJECT}
+	echo ${PROJECT}
 
 .PHONY: default install test
 
